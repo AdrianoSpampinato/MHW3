@@ -1,0 +1,301 @@
+body{
+    text-align: center;               /*perchè usare questo insieme al display:
+                                          inline-block nell'aligner  per centrare il contenuto*/
+  }
+  
+  
+  #aligner{
+      display: inline-block;          
+      width: 70%;
+  }
+  a{
+      color:black;
+      text-decoration: none;
+  }
+  
+  
+  header{
+      display:flex;
+      height:150px;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+  
+  }
+  
+  #nav-bar-top{
+      font-family: Red Hat Display, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      height: 15%;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  
+  .nav-bar-top-items{
+  width: 10%;
+  }
+  
+  
+  #button {
+      display: inline-block ;
+      background-color: yellow;
+      border-radius: 5px;
+      margin-left: 10%;
+      margin-right: 5%;
+  }
+  
+  
+  #posizione-logo{
+      margin-top: -2% ;
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+  #logo{
+  
+      height:100%;
+      width: 20%;
+  
+  }
+  
+  #navbottom{
+   text-align:center;
+  }
+  
+  #navbottom-gest{
+   display: inline-block;
+   width: 80%;
+  }
+  
+  #nav-bottomcontainer{
+      font-family: Red Hat Text, sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  #section1{
+      height:150px;
+      display: flex;
+      border: 1px solid black;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  #bits{
+      color: #ba1212;
+      margin: 0 0 .638rem;
+      font-size: medium;;
+      font-weight: 700;
+      padding :0.3%;
+      margin: 1px solid green;
+  }
+  
+  
+  #section-flexcontainer{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .bits-time{
+     color:#ba1212;
+     margin:1.5%
+  }
+  
+  .section-flexitem{
+      width: 19%;
+      height: 50%;
+      text-align: left;
+      font-family:  Georgia, Times, Times New Roman, serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      margin-left: 1%;
+      padding-top: 1%;
+      padding-bottom: 2%;
+  }
+  
+  #section2{
+      border: 1px solid black;
+      height:500px;
+  }
+  
+  #section2-flexcontainer{
+   display: flex;
+                                /*perchè serve questo comando e non align-items:stretch?*/
+  }
+  
+  #section2-flexitems1{
+      width: 40%;
+      text-align: start;
+      margin-left: 1.5%;
+  }
+  
+  #section2-flexitem2{
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #main-news{
+      width: 90%;
+      margin-top: 3%;
+  }
+  
+  #main-news-title{
+      margin-top: 10%;
+      font-family: Georgia, Times, Times New Roman, serif;
+      color: #000;
+  }
+  
+  .news-core{
+      font-family: Red Hat Text,sans-serif;
+      font-size: small;
+  }
+  
+  #section3{
+      height: 1100px;
+      display:flex ;
+  
+  }
+  
+  .row-size{
+      display: flex;
+      height:25%;
+  }
+  
+  #section3-flexcontainer{
+      display: flex;
+      width:70%;
+      border: 1px solid black;
+     flex-direction: column;
+  }
+  
+  .section3-flexitems{
+      width: 50%;
+      text-align: start;
+      margin-left: 1.5%;
+  }
+  
+  .image-size{
+   width: 100%;
+   height: 100%;
+  }
+  .image-size-nascosta{
+    width: 100%;
+    height: 100%;
+   }
+  .news-title{
+                                                              /*text-align: left; non ha senso dato che è un flex-item
+                                                               questa proprietà va utilizzata nel flex-container padre
+                                                               al flex-item*/
+      font-family: Georgia, Times, Times New Roman, serif;
+      color: #000;
+  }
+  
+  #section3-flexcontainer-flashes-evidenza{
+      display: flex;
+      width:30%;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid black;
+  }
+  
+  .row-size-flashes-evidenza{
+      display: flex;
+      height: 12%;
+      justify-content: space-between;
+  }
+  .row-size-flashes-evidenza-nascosta{
+    display: flex;
+    height: 12%;
+    justify-content: space-between;
+  }
+  .section3-flexitems-flashes-evidenza{
+   width: 45%;
+   text-align: start;
+   margin-left: 1.5%;
+  }
+  .section3-flexitems-flashes-evidenza-nascosta{
+    width: 45%;
+    text-align: start;
+    margin-left: 1.5%;
+   }
+  
+  .news-flashes-evidenza{
+      font-family: Georgia, Times, Times New Roman, serif;
+      color: #000;
+      font-size: small;
+      text-align: center;
+      margin-top: 10%;
+  }
+  
+  .news-flashes-evidenza-nascosta{
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #000;
+    font-size: small;
+    text-align: center;
+    margin-top: 10%;
+}
+
+  #evidenza-flexcontainer-padre{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #evidenza-flexcontainer{
+    width:100%;
+  }
+
+  #evidenza{
+      border:1px solid black;
+      padding: 5%;
+  }
+  
+  #footer-size{
+      border:1px solid black;
+      height:150px;
+      display: flex;
+  }
+  
+  #footer-logo-flexcontainer{
+      width: 10%;    
+  }
+  
+  #footer-logo-flexitem{
+      margin-top: 25%;
+      width:50%;
+  }
+  
+  #footer-bar{
+      display: flex;
+      width:70%;
+      border:1px solid black;
+      flex-direction: column;
+      
+  }
+  
+  
+  #footer-navbar{
+      display:flex;
+      height: 50%;
+      border:1px solid black;
+      justify-content: space-around;
+      text-align: center;
+      
+  }
+  
+  .footer-navbar-items{
+      margin-top: 3%;
+  }
+  
+
+
+  .hidden{
+    display:none;
+  }
